@@ -1,0 +1,38 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: white;
+}
+h1 {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+#hero {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 4px;
+  max-width: 500px;
+  width: 100%;
+  padding: 8px;
+  margin-top: 24px;
+}
